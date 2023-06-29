@@ -4,6 +4,8 @@ import { genres } from "../assets/constants";
 const Discover = () => {
   // console.log(genres);
   const genreTitle = "Pop";
+  
+  const rep;
 
   return (
     <div className="flex flex-col">
