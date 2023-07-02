@@ -1,3 +1,4 @@
+/* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable quotes */
 /* eslint-disable no-unused-vars */
 import { configureStore } from "@reduxjs/toolkit";
