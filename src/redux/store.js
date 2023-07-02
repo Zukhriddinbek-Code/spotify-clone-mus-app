@@ -1,3 +1,5 @@
+/* eslint-disable quotes */
+/* eslint-disable no-unused-vars */
 import { configureStore } from "@reduxjs/toolkit";
 import { shazamCoreApi } from "./services/shazamCore";
 import playerReducer from "./features/playerSlice";
