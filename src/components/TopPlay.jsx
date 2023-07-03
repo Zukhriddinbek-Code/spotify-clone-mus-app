@@ -47,7 +47,7 @@ const TopPlay = () => {
     >
       <div className="w-full flex flex-col">
         <div className="flex flex-row justify-between items-center">
-          <h2></h2>
+          {/* <h2></h2> */}
         </div>
       </div>
     </div>
