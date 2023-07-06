@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable array-callback-return */
 /* eslint-disable react/self-closing-comp */
