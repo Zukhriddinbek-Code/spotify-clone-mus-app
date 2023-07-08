@@ -1,3 +1,4 @@
+/* eslint-disable operator-linebreak */
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable no-console */
 /* eslint-disable arrow-body-style */
@@ -21,15 +22,6 @@ const SongDetails = () => {
   const { data: songData, isFetching: isFetchingSongDetails } =
     useGetSongDetailsQuery({ songid });
 
-  const handlePauseClick = () => {
-    dispatch(playPause(false));
-  };
-
-  const handlePlayClick = (song, i) => {
-    dispatch(setActiveSong({ song, data, i }));
-    dispatch(playPause(true));
-  };
-
   const {
     data,
     isFetching: isFetchingRelatedSong,
@@ -45,6 +37,15 @@ const SongDetails = () => {
   if (error) {
     return <Error />;
   }
+
+  const handlePauseClick = () => {
+    dispatch(playPause(false));
+  };
+
+  const handlePlayClick = (song, i) => {
+    dispatch(setActiveSong({ song, data, i }));
+    dispatch(playPause(true));
+  };
 
   return (
     <div className="flex flex-col">
